@@ -3,10 +3,10 @@ import React from 'react';
 import Utils from './utils';
 
 const colors = {
-  available: 'lightgrey',
+  available: 'deepskyblue',
   used: 'lightgreen',
   wrong: 'lightcoral',
-  candidate: 'deepskyblue'
+  candidate: 'deeppink'
 };
 
 export default ({ name }) => {
