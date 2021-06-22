@@ -1,0 +1,21 @@
+.body {
+  display: 'flex';
+}
+.star {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: '\2605';
+  font-size: 45px;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
