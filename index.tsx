@@ -8,13 +8,6 @@ interface AppState {
   name: string;
 }
 
-const colors = {
-  available: 'lightgrey',
-  used: 'lightgreen',
-  wrong: 'lightcoral',
-  candidate: 'deepskyblue'
-};
-
 class App extends Component<AppProps, AppState> {
   constructor(props) {
     super(props);
